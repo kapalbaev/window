@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Shoulders';
+    font-display: swap;
+    src: url('../fonts/BigShouldersDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Shoulders';
+    font-display: swap;
+    src: url('../fonts/BigShouldersDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #36162e;
+    min-height:100vh;
+}
+.relative {
+    position: relative;
+}
+.font-shoulders {
+    font-family: 'Shoulders', sans-serif;
+}
+.ajax-loader {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../img/ajax-loader.svg") no-repeat center / 5rem auto, rgba(255, 255, 255, .5);
+}
+.mr5 {
+    margin-right: .25rem;
+}
+.mr10 {
+    margin-right: .5rem;
+}
+.mr15 {
+    margin-right: .75rem;
+}
+.mr25 {
+    margin-right: 1.25rem;
+}
+.mb3 {
+    margin-bottom: .15rem;
+}
+.mb5 {
+    margin-bottom: .25rem;
+}
+.mb10 {
+    margin-bottom: .5rem;
+}
+.mb15 {
+    margin-bottom: .75rem;
+}
+.mb20 {
+    margin-bottom: 1rem;
+}
+.mb30 {
+    margin-bottom: 1.5rem;
+}
+.mb40 {
+    margin-bottom: 2rem;
+}
+.mb50 {
+    margin-bottom: 2.5rem;
+}
+.mb60 {
+    margin-bottom: 3rem;
+}
+.mb80 {
+    margin-bottom: 4rem;
+}
+.mb100 {
+    margin-bottom: 5rem;
+}
+.lh11 {
+    line-height: 1.1;
+}
+.lh12 {
+    line-height: 1.2;
+}
+.lh13 {
+    line-height: 1.3;
+}
+.lh14 {
+    line-height: 1.4;
+}
+.lh15 {
+    line-height: 1.5;
+}
+.lh16 {
+    line-height: 1.6;
+}
+.fw400 {
+    font-weight: 400;
+}
+.fw500 {
+    font-weight: 500;
+}
+.fw700 {
+    font-weight: 700;
+}
+.fw900 {
+    font-weight: 900;
+}
+.fz16 {
+    font-size: .8rem;
+}
+.fz17 {
+    font-size: .85rem;
+}
+.fz18 {
+    font-size: .9rem;
+}
+.fz20 {
+    font-size: 1rem;
+}
+.fz22 {
+    font-size: 1.1rem;
+}
+.fz23 {
+    font-size: 1.15rem;
+}
+.fz25 {
+    font-size: 1.25rem;
+}
+.fz26 {
+    font-size: 1.3rem;
+}
+.fz28 {
+    font-size: 1.4rem;
+}
+.fz30 {
+    font-size: 1.5rem;
+}
+.fz34 {
+    font-size: 1.7rem;
+}
+.fz52 {
+    font-size: 2.6rem;
+}
+.fz60 {
+    font-size: 3rem;
+}
+.fz74 {
+    font-size: 3.6rem;
+}
+.fz66 {
+    font-size: 3.3rem;
+}
+.link {
+    transition: .2s;
+    cursor: pointer;
+}
+.link-black {
+    color: #36162e;
+}
+.link-black:hover {
+    color: #ff6d3f;
+}
+.link-black svg {
+    fill: #36162e;
+    transition: .2s;
+}
+.link-black:hover svg {
+    fill: #ff6d3f;
+}
+.link-orange {
+    color: #ff6d3f;
+}
+.link-orange span {
+    color: #ff6d3f;
+    transition: .2s;
+}
+.link-orange svg {
+    fill: #ff6d3f;
+    transition: .2s;
+}
+.link-orange:hover {
+    color: #36162e;
+}
+.link-orange:hover span {
+    color: #36162e;
+}
+.link-orange:hover svg {
+    fill: #36162e;
+}
+.link-white {
+    color: #ffffff;
+}
+.link-white:hover {
+    color: #ff6d3f;
+}
+.color-orange {
+    color: #ff6d3f;
+}
+.color-gray {
+    color: #ACA0AB;
+}
+.color-brown {
+    color: #594057;
+}
+.color-white {
+    color: #ffffff;
+}
+.st-input1 {
+    position: relative;
+    border: 1px solid #ECECEC;
+    background: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 0 1rem 0 1rem;
+    border-radius: .2rem;
+    display: block;
+}
+.st-input1__label {
+    position: absolute;
+    transition: .2s;
+    font-size: .9rem;
+    color: #594057;
+    font-weight: 500;
+    opacity: .5;
+    top: 1.05rem;
+    z-index: 0;
+}
+.st-input1_filled .st-input1__label {
+    opacity: 0;
+}
+.st-input1_focused .st-input1__label {
+    opacity: 0;
+}
+.st-input1__input {
+    border: 0;
+    padding: 1rem 0;
+    font-size: .9rem;
+    color: #36162E;
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    background: transparent;
+    -webkit-text-fill-color: #36162E; /* цвет текста автозаполнения*/
+}
+.st-input1_error {
+    border-color: #dc3c10;
+    background: url("../img/ico_error.svg") no-repeat right 10px center / 10px auto, rgba(220, 60, 16, .1);
+}
+.st-input1_success {
+    border-color: #7ddc4e;
+    background: url("../img/ico_success.svg") no-repeat right 10px center / 18px auto, #f8f8f8;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #f5f5f5 !important; /* Цвет фона автозаполнения */
+}
+.underline {
+    background: url("../img/underline.svg") no-repeat center bottom / 100% auto;
+}
+.underline2 {
+    background: url("../img/underline2.svg") no-repeat center bottom / 100% auto;
+}
+.st-radio1 span {
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: .2rem;
+    display: block;
+    font-size: .9rem;
+    padding: 1rem 1.3rem;
+    line-height: 1.06;
+    cursor: pointer;
+    color: rgba(89, 64, 87, .5);
+    font-weight: 500;
+}
+.st-radio1 input {
+    display: none;
+}
+.st-radio1 input:checked + span {
+    background: #FF6D3F;
+    color: #ffffff;
+    box-shadow: 0px 2px 8px rgba(255, 109, 63, 0.5);
+}
+.btn {
+    font-weight: bold;
+    font-size: .8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-flex;
+    color: #FFFFFF;
+    background: #FF6D3F;
+    box-shadow: 0px 27px 56px rgba(255, 109, 63, 0.43), 0px 8.13971px 16.8824px rgba(255, 109, 63, 0.280183), 0px 3.38082px 7.01207px rgba(255, 109, 63, 0.215), 0px 1.22278px 2.53613px rgba(255, 109, 63, 0.149817), inset 0px 12px 28px rgba(255, 221, 102, 0.45);
+    border-radius: .2rem;
+    padding: 1.2rem 3.5rem;
+    transition: .2s;
+    align-items: center;
+}
+.btn:hover {
+    box-shadow: none;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
